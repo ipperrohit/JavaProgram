@@ -2,12 +2,12 @@ public class MultipleClasses {
     public static void Class1Method(){
         System.out.println("This is Method 1");
     }
-    class demo2{
+    static  class demo2{
         public static void Demo2Method(){
             System.out.println("This is mathod 2");
         }
     }
-    class demo3{
+     static class demo3{
         public static void Demo3Method(){
             System.out.println("This is mathod 3");
         }
