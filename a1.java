@@ -1,5 +1,7 @@
 public class a1 {
-     int first=23;
+     public void showName(){
+        System.out.println("Rohit Ramdas Ipper");
+     }
     
     public static void main(String args[]){
        
