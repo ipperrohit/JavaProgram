@@ -1,5 +1,5 @@
 interface Car{
-    public void Start();
+    public abstract void Start();
 }
 class Elecctric implements Car{
     public void Start(){
