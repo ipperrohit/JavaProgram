@@ -4,9 +4,12 @@ public class FinallyBlock {
             System.out.println(1/0);
         }catch(Exception e){
             System.out.println(e);
+            return;
         }
         finally{
             System.out.println("alwas execute");
+           
+
         }
     }
 }
