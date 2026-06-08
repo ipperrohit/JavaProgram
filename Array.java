@@ -1,7 +1,7 @@
 public class Array {
     public static void main(String args[]){
-        for(int i=65;i<=90;i++){
-            System.out.println((char)i);
-        }
+       int[] mark=new int[0];
+       System.out.println(mark.getClass());
+
     }
 }
