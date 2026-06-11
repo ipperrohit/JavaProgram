@@ -2,11 +2,8 @@ import java.util.Arrays;
 
 public class Array {
     public static void main(String args[]){
-       int[] a = new int [5];
-       for(int i:a){ 
-        System.out.println(a[i]);
-       }
-
+      StringBuffer st=new StringBuffer();
+      System.out.println(st.capacity());
 
     }
 }
