@@ -3,5 +3,7 @@ public class AutoBoxing {
         int a=10;
         Integer b=a;
         System.out.println(b);
+        Integer c=b.valueOf(b);
+        System.out.println(c);
     }
 }
